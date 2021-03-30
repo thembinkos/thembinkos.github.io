@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background : #C0C0C0;
+  line-height: 3em;
+}
+
+p {
+  font-size: 18px;
+}
+
+#menu {
+  background: #336784;
+  max-width: 100%;
+  height: auto;
+  width: 100vw;
+  line-height: 5em;
+}
+
+#menu ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+#menu a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#search {
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+}
+
+#search input.form-text {
+  padding: 7px;
+  width: 250px;
+}
+
+#search input.form-submit {
+  background: #336784;
+  color: #FFF;
+  padding: 7px;
+}
