@@ -35,8 +35,10 @@ p {
 #search {
   line-height: 50px;
   position: absolute;
-  right: 0;
+  right: 10px;
+  top: 25px;
 }
+
 
 #search input.form-text {
   padding: 7px;
