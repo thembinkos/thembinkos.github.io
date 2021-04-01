@@ -1,0 +1,65 @@
+body {
+  text-align: left;
+  background : #C0C0C0;
+  line-height: 3em;
+}
+
+h1 {
+  text-align: left;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  margin : 100px;
+  margin-top: -10px;
+  text-align: left;
+}
+
+#menu {
+  background: #336784;
+  max-width: 100%;
+  height: auto;
+  width: 100vw;
+  line-height: 5em;
+  text-align: center;
+}
+
+#menu ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+#menu a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#search {
+  line-height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+#search input.form-text {
+  padding: 7px;
+  width: 250px;
+}
+
+#search input.form-submit {
+  background: #336784;
+  color: #FFF;
+  padding: 7px;
+}
+
+#footer {
+  background: #336784;
+  width: 100vw;
+  max-width: 100%;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  bottom: 0;
+  position: relative;
+}
