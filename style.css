@@ -7,6 +7,7 @@ body {
 h1 {
   text-align: left;
   font-size: 45px;
+  text-decoration: none;
 }
 
 p {
@@ -40,7 +41,6 @@ p {
   top: 25px;
 }
 
-
 #search input.form-text {
   padding: 7px;
   width: 250px;
@@ -56,8 +56,8 @@ p {
   background: #336784;
   width: 100vw;
   max-width: 100%;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  bottom: 0;
+  position: relative;
 }
-
-.white-text {
-    color: white;
-  }

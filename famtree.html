@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Bulu Family</title>
+  <link rel="stylesheet" href="./style.css">
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to show.
+        data.addRows([
+          ['Bulu', '', ''],
+          
+          ['Bhejane','Bulu', ''],
+          ['Manyake', 'Bulu', ''],
+          ['Gundu','Bulu', ''],
+          ['Vayi','Bulu', ''],
+          
+          ['Ndawana', 'Bhejane', ''],
+          ['Didi', 'Bhejane', ''],
+          ['Malomo', 'Bhejane', ''],
+          ['Mabhunu', 'Bhejane', ''],
+          ['SekaMbizo', 'Bhejane', ''],
+          
+          ['Sithaku Zwalala Mbongolo', 'Manyake', ''],
+          ['Mqheza Ndode Ndeke (sekaJelimani)', 'Manyake', ''],
+          ['Kuba (SekaNkazana)', 'Manyake', ''],
+          ['Ndeke', 'Manyake', ''],
+        ]);
+
+        // Create the chart.
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the tooltips.
+        chart.draw(data, {'allowHtml':true});
+      }
+   </script>
+
+</head>
+<body>
+    <h1>Bulu Family</h1>
+
+<div id="search">
+          <form action="https://bulufamily.com/" method="post">
+            <div>
+              <input class="form-text" name="search" size="32" maxlength="64" placeholder="Ufuna ukudinga ngani?"/>
+              <input class="form-submit" type="submit" value="Search" />
+            </div>
+          </form>
+        </div>
+
+<div id="menu">
+  <ul>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="#">Articles</a></li>
+    <li><a href="famtree.html">Family Tree</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</div>
+
+<h3>Family Tree</h3>
+<p style="color:red;">Still under construction ...</p>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <div id="chart_div"></div>
+<br><br>
+<footer id="footer"> &copy;2021 Bulu family</footer>
+
+    <div id="chart_div"></div>
+
+</body>
+</html>
